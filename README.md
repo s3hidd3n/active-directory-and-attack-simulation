@@ -46,10 +46,10 @@ This project was designed to demonstrate how Splunk, combined with endpoint tele
 
 All infrastructure was deployed in Microsoft Azure.
 
-- Windows Server (Domain Controller): `192.168.0.5`
-- Splunk Server (Ubuntu): `192.168.0.6`
-- Windows 10 Target Machine: `192.168.0.4`
-- Kali Linux Attacker Machine: `192.168.0.7`
+- Windows Server (Domain Controller)
+- Splunk Server (Ubuntu)
+- Windows 10 Target Machine
+- Kali Linux Attacker Machine
 
 📌 Architecture Diagram
 

@@ -1,5 +1,12 @@
 # Active Directory & SIEM Security Monitoring Lab (Splunk + Atomic Red Team)
 
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure)
+![Splunk](https://img.shields.io/badge/Splunk-SIEM-green?logo=splunk)
+![Active%20Directory](https://img.shields.io/badge/Active%20Directory-Enterprise-blue)
+![Atomic%20Red%20Team](https://img.shields.io/badge/Atomic%20Red%20Team-Emulation-red)
+![Kali%20Linux](https://img.shields.io/badge/Kali-Linux-black?logo=kalilinux)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 ---
 
 ## Overview

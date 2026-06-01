@@ -150,6 +150,10 @@ These simulations generated realistic endpoint telemetry for detection validatio
 
 ![Atomic Red Team](images/atomic-red-team.png)
 
+![Atomic Red Team](images/process-creation.png)
+
+
+
 ---
 
 ## Log Analysis in Splunk
@@ -164,7 +168,8 @@ The log captured:
 
 📌 Process Execution Logs
 
-![Process Logs](images/process-creation.png)
+![Process Logs](images/atomic-red-team-2.png)
+
 
 ---
 

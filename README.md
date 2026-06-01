@@ -81,7 +81,7 @@ Logs were forwarded to the Splunk server, where a dedicated index was created fo
 📌 Endpoint Configuration
 
 ![Sysmon Setup](images/sysmon-forwarder.png)
-![Sysmon Setup](images/splunk-forwarder.png)
+![Sysmon Setup](images/splunk-forwarder1.png)
 
 ---
 

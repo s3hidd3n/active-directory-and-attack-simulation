@@ -125,8 +125,6 @@ The brute-force activity was detected in Splunk by filtering:
 
 - Event ID 4625 (Failed Logon Attempts)
 
-This allowed analysis of the host
-
 📌 Splunk Detection
 
 ![Failed Logins](images/splunk-4625.png)

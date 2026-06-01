@@ -101,6 +101,7 @@ This created a realistic enterprise identity and authentication structure.
 📌 Active Directory Setup
 
 ![Active Directory](images/ad-setup.png)
+![Active Directory](images/ad-setup1.png)
 
 ---
 

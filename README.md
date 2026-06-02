@@ -13,7 +13,7 @@
 
 In this project, I built a full Active Directory environment in Microsoft Azure to simulate a realistic enterprise network for security monitoring and attack analysis.
 
-The environment consisted of a Domain Controller, a Windows 10 target machine, a Splunk SIEM server, and a Kali Linux attacker machine. The goal was to understand how enterprise networks generate security telemetry and how SIEM tools like Splunk can be used to collect, analyse, and correlate security events.
+The environment consisted of a Domain Controller, a Windows 11 target machine, a Splunk SIEM server, and a Kali Linux attacker machine. The goal was to understand how enterprise networks generate security telemetry and how SIEM tools like Splunk can be used to collect, analyse, and correlate security events.
 
 Throughout this lab, I configured Active Directory, deployed endpoint logging using Sysmon and Splunk Universal Forwarder, and simulated real-world attack techniques such as brute-force authentication attempts and adversary emulation using Atomic Red Team. The resulting telemetry was analysed in Splunk to identify malicious behaviour and understand detection patterns.
 
@@ -39,7 +39,7 @@ This project was designed to demonstrate how Splunk, combined with endpoint tele
 
   <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
-  <img src="https://img.shields.io/badge/Windows_10-00A4EF?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows_11-00A4EF?style=for-the-badge&logo=windows&logoColor=white" />
 
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
 
@@ -55,7 +55,7 @@ All infrastructure was deployed in Microsoft Azure.
 
 - Windows Server (Domain Controller)
 - Splunk Server (Ubuntu)
-- Windows 10 Target Machine
+- Windows 11 Target Machine
 - Kali Linux Attacker Machine
 
 📌 Architecture Diagram
@@ -83,7 +83,7 @@ To enable telemetry collection across the environment, I installed and configure
 - Splunk Universal Forwarder (Windows endpoints)
 - Sysmon for detailed event logging
 
-Logs were forwarded to the Splunk server, where a dedicated index was created for endpoint security data. Successful log ingestion was verified from both the Domain Controller and the Windows 10 machine.
+Logs were forwarded to the Splunk server, where a dedicated index was created for endpoint security data. Successful log ingestion was verified from both the Domain Controller and the Windows 11 machine.
 
 📌 Endpoint Configuration
 
@@ -101,7 +101,7 @@ Configuration steps included:
 - Creating a new domain
 - Setting up Organizational Units (OUs)
 - Creating domain users
-- Joining the Windows 10 machine to the domain
+- Joining the Windows 11 machine to the domain
 
 This created a realistic enterprise identity and authentication structure.
 
